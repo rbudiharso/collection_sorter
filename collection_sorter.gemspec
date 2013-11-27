@@ -7,11 +7,11 @@ require "collection_sorter/version"
 Gem::Specification.new do |s|
   s.name        = "collection_sorter"
   s.version     = CollectionSorter::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of CollectionSorter."
-  s.description = "TODO: Description of CollectionSorter."
+  s.authors     = ["Rahmat Budiharso"]
+  s.email       = ["rbudiharso@gmail.com"]
+  s.homepage    = "http://github.com"
+  s.summary     = "Sort a collection"
+  s.description = "Sort a collection"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
