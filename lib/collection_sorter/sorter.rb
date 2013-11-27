@@ -18,8 +18,7 @@ module CollectionSorter
     end
 
     def apply_sort(scope, default=nil)
-      params = {} unless params
-      sorter = params[:sort] || default || (return scope)
+      sorter = (request.params[:sort] rescue nil) || default || (return scope)
       sorter = default unless self.sorters.include?(sorter.to_sym)
 
       return self.sorters[sorter.to_sym].call(scope) if sorter.present?
