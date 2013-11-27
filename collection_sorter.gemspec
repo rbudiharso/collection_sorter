@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = CollectionSorter::VERSION
   s.authors     = ["Rahmat Budiharso"]
   s.email       = ["rbudiharso@gmail.com"]
-  s.homepage    = "http://github.com"
-  s.summary     = "Sort a collection"
-  s.description = "Sort a collection"
+  s.homepage    = "https://github.com/rbudiharso/collection_sorter"
+  s.summary     = "Rails plugin to sort collection based on params"
+  s.description = "Rails plugin to sort collection based on params"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
